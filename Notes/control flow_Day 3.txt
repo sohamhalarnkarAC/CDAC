@@ -1,0 +1,149 @@
+control flow
+
+1. Conditional statements -- if, if-else, else-if, nested-if, switch case
+2. Looping statements -- (entry control loop) for, while
+			(exit control loop) do-while 
+3. Transfer statements -- break, continue
+
+
+if-- used to check single condition.
+
+syntex-
+if(condition){
+		//statement;
+	}
+
+--------------------------
+
+if-else -- used to check more than single condition.
+
+syntex-
+
+if(condition 1){
+		//statement 1;
+	}
+else {
+		//statement 2;
+	}
+
+-----------------------------
+
+
+
+else-if -- used when we have one if block, multiple else-if and at last one else. 
+
+if(condition 1){
+	statement 1;
+}
+else-if(condition 2){
+	statement 2;
+}
+else-if(condition 3){
+	statement 3;
+}
+
+else{
+	statement n;
+}
+
+-----------------------------
+
+nested-if --- 
+
+if(condition 1){
+		if(condition 2){
+			statement 1
+		}
+		else(	)
+		}
+else{
+	statement final;
+}
+
+--------------------------------
+
+switch case-- its a multiple choice decision making statement.
+	its used when you want to select only one case out of multiple cases.
+
+syntax
+
+switch (expression){
+
+	case 1 : statement 1
+		break; 		 --> stops the switch after matching the case
+
+	case 2 : statement 2
+		break;
+
+	.
+	.	
+	.
+
+	case n : statement n
+		break;
+
+	default : statement  --> if no condition satisfied then it will be printed
+}
+
+--------------------------------------
+
+2. Looping statements -- (entry control loop) for, while
+			(exit control loop) do-while 
+
+	
+ Entry control loop-- first condition is checked, then loop body is executed.
+
+
+for loop--
+
+syntax-
+
+for(initialization; condition; increment/decerement){
+		//body
+	}
+
+for(int i=0; i<=10 ; i++){
+	System.out.println(i);
+}
+
+
+while loop---  first we check the condition and upon satisfaction, we execute the body.
+
+sytax--
+
+while(condition){
+	//statement ;
+}
+
+
+
+Exit control loop ----- first we execute the statement and then condition is checked.
+
+
+do-while
+
+Syntax
+
+do{
+	//statement;
+}
+while(condition)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
